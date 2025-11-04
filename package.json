@@ -1,0 +1,16 @@
+{
+  "name": "telegram-key-bot",
+  "version": "1.0.0",
+  "description": "Telegram Key Management System with GitHub Database",
+  "main": "api/bot.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
